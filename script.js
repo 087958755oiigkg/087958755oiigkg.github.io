@@ -8,4 +8,6 @@ link.download = "my-desktop-pet.zip";   // 下載後的檔名
 document.body.appendChild(link);
 link.click();
 document.body.removeChild(link);
+    // 打開新網址
+    window.open("https://drive.google.com/file/d/1sllTV_VxOg_jqWG2F4G0seN4OvPnFy0e/view?usp=sharing", "_blank");
 });
