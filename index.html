@@ -3,34 +3,53 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>我的桌寵</title>
+    <title>桌寵介紹網站</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-    <h1>歡迎來到我的桌寵世界！</h1>
-    <p>一款可愛又聰明的虛擬寵物，陪伴你度過每一天。</p>
-</header>
+<audio id="bgm" autoplay loop>
+    <source src="u135u-jv6sv.mp3" type="audio/mpeg" />
+</audio>
 
-<main>
-    <section class="pet-preview">
-        <img src="img.png"  alt="桌寵預覽" />
-        <button id="interact-btn">點擊下載！</button>
-    </section>
+<div class="container">
+    <!-- Slide 1: 封面 -->
+    <div class="slide" id="slide1">
+        <h1>桌寵介紹網站</h1>
+        <h3 class="marked-text">網站名稱：桌寵介紹網站</h3>
+        <h3 class="marked-text">專案名稱：桌寵互動展示</h3>
+        <img src="d2301fabfaed4697a326982fcedba937.gif" alt="封面圖片" />
+        <p class="marked-text">點擊按鈕可下載桌寵，並聆聽背景音樂</p>
+        <button id="interact-btn">點我互動</button>
+    </div>
 
-    <section class="features">
-        <h2>功能介紹</h2>
+    <!-- Slide 2: 功能介紹 -->
+    <div class="slide" id="slide2">
+        <h2>桌寵功能特色</h2>
+        <img src="6月2日 (1)(5)_matting.gif" alt="功能圖片" />
         <ul>
-            <li>🎮 支援拖曳與互動</li>
-            <li>🖼️ 自由移動</li>
-            <li>🔊 音效與語音回饋</li>
+            <li><span class="list-icon">•</span>互動功能（點擊與反應）</li>
+            <li><span class="list-icon">•</span>音效回應</li>
+            <li><span class="list-icon">•</span>拖曳移動</li>
         </ul>
-    </section>
-</main>
+    </div>
 
-<footer>
-    <p>&copy; 2025 我的桌寵計畫 </p>
-</footer>
+    <!-- Slide 3: 技術與預覽 -->
+    <div class="slide" id="slide3">
+        <h2>使用技術 &amp; 畫面預覽</h2>
+        <img src="img_1.png" alt="桌寵畫面預覽" />
+        <p class="marked-text">使用 HTML / CSS / JavaScript 開發</p>
+    </div>
+
+    <!-- Slide 4: 操作流程圖 -->
+    <div class="slide" id="slide4">
+        <h2>素材出處</h2>
+        <img src="img.png" alt="素材出處" />
+        <h3 class="marked-text">耄耋貓相關二次創作</h3>
+        <h3 class="marked-text">提報者：鍾啟文</h3>
+        <h3 class="marked-text">單位：嶺東科技大學數位多媒體設計系</h3>
+        <h3 class="marked-text">提報日期：2025年6月3日</h3>
+    </div>
+</div>
 
 <script src="script.js"></script>
 </body>
